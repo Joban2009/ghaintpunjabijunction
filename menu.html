@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Ghaint Punjabi Junction Food Truck provides delicious Indian Style food. Visit Website to learn more...">
+    <title>Ghaint Punjabi Junction Food Truck</title>
+    <link rel="stylesheet" href="style-menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img id="image" src="images/logo1.png" alt="logo">
+            <ul>
+                <div class="li" id="home"><a href="/index.html">Home</a></div>
+                <div class="li" id="menu"><a href="/menu.html">Menu</a></div>
+                <div class="li" id="aboutUs"><a href="/aboutUs.html">About Us</a></div>
+                <button class="li" id="location"><a target="_blank" href="https://www.google.com/maps/place/Ghaint+Punjabi+Junction+Food+Truck/@43.6934233,-79.7464695,17z/data=!3m1!4b1!4m6!3m5!1s0x882b15a407f72129:0x22b150aec7cdc1a5!8m2!3d43.6934233!4d-79.7438946!16s%2Fg%2F11kr73_6t6?entry=ttu">Location</a></button>
+                <button class="li" id="uberEats"><a target="_blank" href="https://www.ubereats.com/ca/store/ghaint-punjabi-junction-food-truck/JxW81bg5XBaLf2ysfNW-iw">Uber Eats</a></button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="filter borderBottom">
+            <div class="changeBg" id="all" onclick="setall()">ALL</div>
+            <div class="changeBg" id="pakoda" onclick="setpakoda()">PAKODA</div>
+            <div class="changeBg" id="burger" onclick="setburger()">BURGER</div>
+            <div class="changeBg" id="main" onclick="setmain()">MAIN</div>
+            <div class="changeBg" id="fries" onclick="setfries()">FRIES</div>
+            <div class="changeBg" id="drinks" onclick="setdrinks()">DRINKS</div>
+            <div class="changeBg" id="hotBeverage" onclick="sethotBeverage()">HOT BEVERAGE</div>
+            <div class="changeBg" id="kidsSpecial" onclick="setkidsSpecial()">KIDS SPECIAL</div>
+            <div class="changeBg" id="combo" onclick="setcombo()">COMBO</div>
+        </div>
+        <br>
+        <div class="mainMenu">
+            <div class="allFilter">
+                <div class="flexCenter"><div class="itemHeading">Pakoda</div></div>
+                <div class="itemsAll"><span>Mix Veg Pakoda</span><span>7.99</span></div>
+                <div class="itemsAll"><span>Gobi Pakoda</span><span>8.99</span></div>
+                <div class="itemsAll"><span>Paneer Pakoda</span><span>9.99</span></div>
+                <div class="itemsAll"><span>Bread Pakoda</span><span>2.99 per piece</span></div>
+                <br>
+                <div class="flexCenter"><div class="itemHeading">Burger</div></div>
+                <div class="itemsAll"><span>Tikki Burger</span><span>7.89</span></div>
+                <div class="itemsAll"><span>Noodle Tikki Burger</span><span>8.49</span></div>
+                <div class="itemsAll"><span>Paneer Tikki Burger</span><span>8.99</span></div>
+                <br>
+                <div class="flexCenter"><div class="itemHeading">Main</div></div>
+                <div class="itemsAll"><span>Chana Bhatura</span><span>10.99</span></div>
+                <div class="itemsAll"><span>Extra Bhatura</span><span>1.99</span></div>
+                <div class="itemsAll"><span>Chana Puri</span><span>9.99</span></div>
+                <div class="itemsAll"><span>Extra Puri</span><span>1.49</span></div>
+                <div class="itemsAll"><span>Noodle Spring Roll Plate</span><span>5.99</span></div>
+                <div class="itemsAll"><span>Veggie Spring Roll</span><span>0.99</span></div>
+                <div class="itemsAll"><span>Chana Kulcha Plate</span><span>6.99</span></div>
+                <div class="itemsAll"><span>Extra Kulcha</span><span>1.49</span></div>
+                <div class="itemsAll"><span>Bharva Kulcha (Indian Style)</span><span>6.49</span></div>
+                <div class="itemsAll"><span>Dahi Aloo Tikki</span><span>7.99</span></div>
+                <div class="itemsAll"><span>Chana Aloo Tikki</span><span>8.99</span></div>
+                <div class="itemsAll"><span>Veggie Meggie</span><span>5.99</span></div>
+                <div class="itemsAll"><span>Veggie Noodle</span><span>8.99</span></div>
+                <div class="itemsAll"><span>Samosa Chat</span><span>7.49</span></div>
+                <div class="itemsAll"><span>Chat Papri</span><span>6.49</span></div>
+                <div class="itemsAll"><span>Dahi Puri</span><span>8.99</span></div>
+                <div class="itemsAll"><span>Gol-Gappe</span><span>8.99</span></div>
+                <div class="itemsAll"><span>Suji wale Gol-Gappe(Friday & Saturday Only)</span><span>9.99</span></div>
+                <br>
+                <div class="flexCenter"><div class="itemHeading">Fries</div></div>
+                <div class="itemsAll"><span>French Fries</span><span>3.49</span></div>
+                <div class="itemsAll"><span>Masala Fries</span><span>3.99</span></div>
+                <div class="itemsAll"><span>Cheese Fries</span><span>6.99</span></div>
+                <br>
+                <div class="flexCenter"><div class="itemHeading">Drinks</div></div>
+                <div class="itemsAll"><span>Coca Cola, Canada Dry, Sprite</span><span>1.49</span></div>
+                <div class="itemsAll"><span>Water Bottle</span><span>0.99</span></div>
+                <div class="itemsAll"><span>Apple Juice Bottle</span><span>1.99</span></div>
+                <div class="itemsAll"><span>Nimbu Masala Soda</span><span>3.99</span></div>
+                <div class="itemsAll"><span>Shikanjvi</span><span>3.49</span></div>
+                <div class="itemsAll"><span>Mango Lassi</span><span>4.99</span></div>
+                <div class="itemsAll"><span>Sweet Lassi</span><span>3.99</span></div>
+                <div class="itemsAll"><span>Salt Lassi</span><span>3.49</span></div>
+                <div class="itemsAll"><span>Rooh Afza</span><span>2.99</span></div>
+                <br>
+                <div class="flexCenter"><div class="itemHeading">Hot Beverage</div></div>
+                <div class="itemsAll"><span>Masala Chaa</span><span>2.49</span></div>
+                <div class="itemsAll"><span>Gud Wali Chaa</span><span>2.99</span></div>
+                <div class="itemsAll"><span>Dudh Patti</span><span>3.49</span></div>
+                <div class="itemsAll"><span>Dudh Jalebi</span><span>4.99</span></div>
+                <div class="itemsAll"><span>Kesar Dudh</span><span>5.49</span></div>
+                <br>
+                <div class="flexCenter"><div class="itemHeading">Kids Special</div></div>
+                <div class="itemsAll"><span>Fries + Juice</span><span>4.99</span></div>
+                <div class="itemsAll"><span>Spring Roll(4pc + Juice)</span><span>5.49</span></div>
+                <br>
+                <div class="flexCenter"><div class="itemHeading">Combo</div></div>
+                <div class="itemsAll"><span>Bharva Kulcha + Pop</span><span>7.49</span></div>
+                <div class="itemsAll"><span>Tikki Burger + Fries + Pop</span><span>11.49</span></div>
+                <div class="itemsAll"><span>Chana Bhatura + Salt Lassi</span><span>12.49</span></div>
+            </div>
+
+            <div class="pakodaFilter">
+                <div class="itemsAll"><span>Mix Veg Pakoda</span><span>7.99</span></div>
+                <div class="itemsAll"><span>Gobi Pakoda</span><span>8.99</span></div>
+                <div class="itemsAll"><span>Paneer Pakoda</span><span>9.99</span></div>
+                <div class="itemsAll"><span>Bread Pakoda</span><span>2.99 per piece</span></div>
+            </div>
+
+            <div class="burgerFilter">
+                <div class="itemsAll"><span>Tikki Burger</span><span>7.89</span></div>
+                <div class="itemsAll"><span>Noodle Tikki Burger</span><span>8.49</span></div>
+                <div class="itemsAll"><span>Paneer Tikki Burger</span><span>8.99</span></div>
+            </div>
+
+            <div class="mainFilter">
+                <div class="itemsAll"><span>Chana Bhatura</span><span>10.99</span></div>
+                <div class="itemsAll"><span>Extra Bhatura</span><span>1.99</span></div>
+                <div class="itemsAll"><span>Chana Puri</span><span>9.99</span></div>
+                <div class="itemsAll"><span>Extra Puri</span><span>1.49</span></div>
+                <div class="itemsAll"><span>Noodle Spring Roll Plate</span><span>5.99</span></div>
+                <div class="itemsAll"><span>Veggie Spring Roll</span><span>0.99</span></div>
+                <div class="itemsAll"><span>Chana Kulcha Plate</span><span>6.99</span></div>
+                <div class="itemsAll"><span>Extra Kulcha</span><span>1.49</span></div>
+                <div class="itemsAll"><span>Bharva Kulcha (Indian Style)</span><span>6.49</span></div>
+                <div class="itemsAll"><span>Dahi Aloo Tikki</span><span>7.99</span></div>
+                <div class="itemsAll"><span>Chana Aloo Tikki</span><span>8.99</span></div>
+                <div class="itemsAll"><span>Veggie Meggie</span><span>5.99</span></div>
+                <div class="itemsAll"><span>Veggie Noodle</span><span>8.99</span></div>
+                <div class="itemsAll"><span>Samosa Chat</span><span>7.49</span></div>
+                <div class="itemsAll"><span>Chat Papri</span><span>6.49</span></div>
+                <div class="itemsAll"><span>Dahi Puri</span><span>8.99</span></div>
+                <div class="itemsAll"><span>Gol-Gappe</span><span>8.99</span></div>
+                <div class="itemsAll"><span>Suji wale Gol-Gappe(Friday & Saturday Only)</span><span>9.99</span></div>
+            </div>
+
+            <div class="friesFilter">
+                <div class="itemsAll"><span>French Fries</span><span>3.49</span></div>
+                <div class="itemsAll"><span>Masala Fries</span><span>3.99</span></div>
+                <div class="itemsAll"><span>Cheese Fries</span><span>6.99</span></div>
+            </div>
+
+            <div class="drinksFilter">
+                <div class="itemsAll"><span>Coca Cola, Canada Dry, Sprite</span><span>1.49</span></div>
+                <div class="itemsAll"><span>Water Bottle</span><span>0.99</span></div>
+                <div class="itemsAll"><span>Apple Juice Bottle</span><span>1.99</span></div>
+                <div class="itemsAll"><span>Nimbu Masala Soda</span><span>3.99</span></div>
+                <div class="itemsAll"><span>Shikanjvi</span><span>3.49</span></div>
+                <div class="itemsAll"><span>Mango Lassi</span><span>4.99</span></div>
+                <div class="itemsAll"><span>Sweet Lassi</span><span>3.99</span></div>
+                <div class="itemsAll"><span>Salt Lassi</span><span>3.49</span></div>
+                <div class="itemsAll"><span>Rooh Afza</span><span>2.99</span></div>
+            </div>
+
+            <div class="hotBeveragesFilter">
+                <div class="itemsAll"><span>Masala Chaa</span><span>2.49</span></div>
+                <div class="itemsAll"><span>Gud Wali Chaa</span><span>2.99</span></div>
+                <div class="itemsAll"><span>Dudh Patti</span><span>3.49</span></div>
+                <div class="itemsAll"><span>Dudh Jalebi</span><span>4.99</span></div>
+                <div class="itemsAll"><span>Kesar Dudh</span><span>5.49</span></div>
+            </div>
+
+            <div class="kidsSpecialFilter">
+                <div class="itemsAll"><span>Fries + Juice</span><span>4.99</span></div>
+                <div class="itemsAll"><span>Spring Roll(4pc + Juice)</span><span>5.49</span></div>
+            </div>
+
+            <div class="comboFilter">
+                <div class="itemsAll"><span>Bharva Kulcha + Pop</span><span>7.49</span></div>
+                <div class="itemsAll"><span>Tikki Burger + Fries + Pop</span><span>11.49</span></div>
+                <div class="itemsAll"><span>Chana Bhatura + Salt Lassi</span><span>12.49</span></div>
+            </div>
+        </div>
+    </main>
+    <footer class="mainFooter">
+        <div class="footerBody">
+            
+            <div class="column">
+                <br>
+                <span class="columnHeading">Pages</span>
+                <br>
+                <span class="columnitem"><a href="/index.html">Home</a></span>
+                <span class="columnitem"><a href="/menu.html">Menu</a></span>
+                <span class="columnitem"><a href="/aboutUs.html">About Us</a></span>
+                <br>
+            </div>
+            <div class="column">
+                <br>
+                <span class="columnHeading">Timing</span>
+                <br>
+                <span class="columnitem">11:00 AM to 10:00PM(Mon-Fri)</span>
+                <span class="columnitem">11:00 AM to 11:00PM(Sat & Sun)</span>
+                <br>
+            </div>
+            <div class="column">
+                <br>
+                <span class="columnHeading">Contact Us</span>
+                <br>
+                <span class="columnitem"><i class="fa-solid fa-location-dot"></i> 72 Orenda Rd, Brampton, ON L6W 1W1</span>
+                <span class="columnitem"><i class="fa-solid fa-phone"></i> +1(437)445-5757</span>
+                <br>
+            </div>
+            <div class="column">
+                <br>
+                <span class="columnHeading">Follow Us</span>
+                <br>
+                <span class="columnitem"><a href="https://www.tiktok.com/@ghaint_punjabijunction/" target="_blank"><i class="fa-brands fa-tiktok"></i> Tik-Tok</a></span>
+                <span class="columnitem"><a href="https://www.instagram.com/ghaint_punjabi_junction/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></span>
+                <br>
+            </div>
+        </div>
+        <div class="footerCopyright">
+            Copyright © 2023 Ghaint Punjabi Junction Food Truck, All rights reserved
+        </div>
+    </footer>
+
+    <script src="script-menu.js"></script>
+
+</body>
+
+</html>
