@@ -82,14 +82,14 @@ nav{
     font-size: calc(1vw + 8px);
 }
 
-.contactHeading {
+.Heading {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 28px 0;
 }
 
-#contactUsHeading {
+.textHeading {
     font-size: calc(3vw + 12px);
     color: #0086db;
     background-color: #fff;
