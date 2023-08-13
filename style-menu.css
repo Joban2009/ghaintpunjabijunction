@@ -91,7 +91,7 @@ nav{
 
 .itemsAll{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .pakodaFilter, .burgerFilter, .mainFilter, .friesFilter, .drinksFilter, .hotBeveragesFilter, .kidsSpecialFilter, .comboFilter {
